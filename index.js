@@ -2,4 +2,18 @@
 function reverseString(str) {
     return str.split("").reverse().join("");
 }
-console.log("Problem 1:", reverseString("hello")); 
+console.log("Problem 1:", reverseString("hello"));
+
+
+// Problem 2: Count Vowels in a String
+function countVowels(str) {
+    let vowels = "aeiouAEIOU";
+    let count = 0;
+    for (let char of str) {
+        if (vowels.includes(char)) {
+            count++;
+        }
+    }
+    return count;
+}
+console.log("Problem 2:", countVowels("programming")); 
