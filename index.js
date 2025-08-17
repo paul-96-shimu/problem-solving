@@ -16,4 +16,15 @@ function countVowels(str) {
     }
     return count;
 }
-console.log("Problem 2:", countVowels("programming")); 
+console.log("Problem 2:", countVowels("programming"));
+
+
+
+
+// Problem 3: Check for Palindrome
+function isPalindrome(str) {
+    let reversed = str.split("").reverse().join("");
+    return str === reversed;
+}
+console.log("Problem 3:", isPalindrome("madam"));
+console.log("Problem 3:", isPalindrome("hello"));
