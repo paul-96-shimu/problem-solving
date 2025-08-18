@@ -62,7 +62,21 @@ function sumArray(arr) {
     let sum = 0;
     for (let num of arr) {
         sum += num;
+
     }
     return sum;
 }
 console.log("Problem 6:", sumArray([1, 2, 3, 4])); 
+
+// Problem 7: Find Even Numbers in an Array
+function findEvenNumbers(arr) {
+    let evenArr = [];
+    for (let num of arr) {
+        if (num % 2 === 0) {
+            evenArr.push(num);
+        }
+    }
+    return evenArr;
+}
+console.log("Problem 7:", findEvenNumbers([1, 2, 3, 4, 5, 6])); 
+
