@@ -92,3 +92,14 @@ function capitalizeWords(str) {
     return words.join(" ");
 }
 console.log("Problem 8:", capitalizeWords("hello world")); 
+
+
+// Problem 9: Find the Factorial of a Number
+function factorial(n) {
+    let result = 1;
+    for (let i = 1; i <= n; i++) {
+        result *= i;
+    }
+    return result;
+}
+console.log("Problem 9:", factorial(5)); 
