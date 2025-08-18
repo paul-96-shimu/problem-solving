@@ -13,7 +13,7 @@ function countVowels(str) {
         if (vowels.includes(char)) {
             count++;
         }
-    }
+    } 
     return count;
 }
 console.log("Problem 2:", countVowels("programming"));
@@ -41,3 +41,18 @@ function findMax(arr) {
     return max;
 }
 console.log("Problem 4:", findMax([5, 1, 9, 3])); 
+
+
+
+
+// Problem 5: Remove Duplicates from an Array
+function removeDuplicates(arr) {
+    let NewArr = [];
+    for (let num of arr) {
+        if (!NewArr.includes(num)) {
+            NewArr.push(num);
+        }
+    }
+    return NewArr;
+}
+console.log("Problem 5:", removeDuplicates([1, 2, 2, 3, 4, 4])); 
