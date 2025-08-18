@@ -58,7 +58,7 @@ function removeDuplicates(arr) {
 console.log("Problem 5:", removeDuplicates([1, 2, 2, 3, 4, 4])); 
 
 // Problem 6: Sum of All Numbers in an Array
-function sumArray(arr) {
+function AddArray(arr) {
     let sum = 0;
     for (let num of arr) {
         sum += num;
@@ -66,7 +66,7 @@ function sumArray(arr) {
     }
     return sum;
 }
-console.log("Problem 6:", sumArray([1, 2, 3, 4])); 
+console.log("Problem 6:", AddArray([1, 2, 3, 4])); 
 
 // Problem 7: Find Even Numbers in an Array
 function findEvenNumbers(arr) {
@@ -107,7 +107,7 @@ console.log("Problem 9:", factorial(5));
 
 // Problem 10: PingPong Challenge
 function pingPong() {
-    let result = ;
+    let result = [];
     for (let i = 1; i <= 20; i++) {
         if (i % 3 === 0 && i % 5 === 0) {
             result.push("PingPong");
