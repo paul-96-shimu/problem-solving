@@ -103,3 +103,22 @@ function factorial(n) {
     return result;
 }
 console.log("Problem 9:", factorial(5)); 
+
+
+// Problem 10: PingPong Challenge
+function pingPong() {
+    let result = [];
+    for (let i = 1; i <= 20; i++) {
+        if (i % 3 === 0 && i % 5 === 0) {
+            result.push("PingPong");
+        } else if (i % 3 === 0) {
+            result.push("Ping");
+        } else if (i % 5 === 0) {
+            result.push("Pong");
+        } else {
+            result.push(i);
+        }
+    }
+    return result;
+}
+console.log("Problem 10:", pingPong());
